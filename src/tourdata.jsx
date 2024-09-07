@@ -1,7 +1,17 @@
+import amritsar from "../assets/amritsar.jpg";
+import darjeeling from "../assets/darjeeling.jpg";
+import kashiayodhya from "../assets/kashiayodhya.jpg";
+import kashigaya from "../assets/kashigaya.jpg";
+import kashmir from "../assets/kashmir.jpg";
+import kerala from "../assets/kerala.jpg";
+import nepal from "../assets/nepal.jpg";
+import rajasthan from "../assets/rajasthan.jpg";
+import shimla from "../assets/shimla.jpg";
+
 const tourData = [
   {
     slug: "darjeeling-tour",
-    image: "darjeeling.jpg",
+    image: darjeeling,
     name: "Darjeeling Tour",
     dates: "20 Sept, 15 Oct, 7 Nov, 10 Dec",
     days: [
@@ -39,7 +49,7 @@ const tourData = [
   },
   {
     slug: "rajasthan-tour",
-    image: "rajasthan.jpg",
+    image: rajasthan,
     name: "Rajasthan Tour",
     dates: "23/09, 15/10, 06/11, 19/11, 04/12, 19/11",
     days: [
@@ -72,7 +82,7 @@ const tourData = [
   },
   {
     slug: "kashmir-tour",
-    image: "kashmir.jpg",
+    image: kashmir,
     name: "Kashmir & Vaishnao Devi Tour",
     dates:
       "15 March, 20 March, 25 March, 30 March, 5 April, 10 April, 15 April, 20 April, 25 April, 30 April",
@@ -99,7 +109,7 @@ const tourData = [
   },
   {
     slug: "shimla-tour",
-    image: "shimla.jpg",
+    image: shimla,
     name: "Shimla, Kullu, Manali, Dharamshala, Dalhousie & Amritsar Tour",
     dates: "15 Oct, 30 Oct, 15 Nov, 30 Nov, 15 Dec",
     days: [
@@ -130,7 +140,7 @@ const tourData = [
   },
   {
     slug: "amritsar-tour",
-    image: "amritsar.jpg",
+    image: amritsar,
     name: "Amritsar-Vaishno Devi-Patnitop-Shivkhori Tour",
     dates: "17 November, 17 December",
     days: [
@@ -153,7 +163,7 @@ const tourData = [
   },
   {
     slug: "kashi-ayodhya-tour",
-    image: "kashiayodhya.jpg",
+    image: kashiayodhya,
     name: "Kashi Prayag Ayodhya Tour",
     dates: "26 September, 20 October, 19 November, 16 December",
     days: [
@@ -174,7 +184,7 @@ const tourData = [
   },
   {
     slug: "kerala-tour",
-    image: "kerala.jpg",
+    image: kerala,
     name: "Kerala, Kanyakumari, Rameshwaram, Madurai Tour",
     dates: "5 November",
     days: [
@@ -203,7 +213,7 @@ const tourData = [
   },
   {
     slug: "nepal-tour",
-    image: "nepal.jpg",
+    image: nepal,
     name: "Nepal, Ayodhya, Varanasi Tour",
     dates: "07 May 2024 to 20 May 2024",
     days: [
@@ -234,7 +244,7 @@ const tourData = [
   },
   {
     slug: "kashi-gaya-tour",
-    image: "kashigaya.jpg",
+    image: kashigaya,
     name: "Kashi, Prayagraj, Ayodhya, Chitrakoot, Gaya Tour",
     dates: "19 September, 13 October, 10 November, 5 December",
     days: [
