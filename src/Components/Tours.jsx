@@ -1,4 +1,4 @@
-import tourimg from "../../src/assets/tourimg.png";
+// import tourimg from "../../src/assets/tourimg.png";
 import ImageCard from "./ImageCard.jsx";
 
 import amritsar from "../assets/amritsar.jpg";
