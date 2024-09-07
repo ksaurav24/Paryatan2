@@ -44,7 +44,7 @@ const Service = (service) => {
                 className="text-xl  hover:translate-x-1 transition-all duration-300 ease-in-out "
               >
                 <button
-                  type="button"
+                  type="button" disabled
                   className="bg-white text-center w-40 rounded-2xl h-14 relative font-sans text-black text-xl font-semibold group"
                 >
                   <div className="bg-[#FBD601] rounded-xl h-12 w-1/4 flex items-center justify-center absolute right-1 top-[4px] group-hover:w-[150px] z-10 duration-500">

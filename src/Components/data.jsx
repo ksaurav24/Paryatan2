@@ -40,14 +40,14 @@ export const navLinks = [
   },
   {
     name: "About Us",
-    link: "/about",
+    link: "/",
   },
   {
     name: "our Services",
-    link: "/services",
+    link: "/",
   },
   {
     name: "Contact us",
-    link: "/contact",
+    link: "/",
   },
 ];

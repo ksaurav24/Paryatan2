@@ -132,7 +132,7 @@ const Hero = () => {
                           <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
                         </svg>
                       </a>
-                      <a href="https://linkedin.com/">
+                      {/* <a href="https://linkedin.com/">
                         <svg
                           className="w-[30px] text-white"
                           xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@ const Hero = () => {
                         >
                           <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
                         </svg>
-                      </a>
+                      </a> */}
                       <a href="https://wa.me/+919834709817">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ const Hero = () => {
             transition={{ duration: 0.6, ease: "easeInOut", delay: 1.2 }}
             className="flex w-screen mt-6 items-center justify-center "
           >
-            <button className="cursor-pointer  relative rounded-md group overflow-hidden border-2 px-8 py-2 border-[#FBD601]">
+            <button disabled className="cursor-pointer  relative rounded-md group overflow-hidden border-2 px-8 py-2 border-[#FBD601]">
               <span className="font-bold text-zinc-950 text-xl relative z-10 group-hover:text-[#FBD601] duration-500">
                 Get In Touch
               </span>

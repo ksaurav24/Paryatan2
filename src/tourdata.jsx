@@ -13,7 +13,7 @@ const tourData = [
     slug: "darjeeling-tour",
     image: darjeeling,
     name: "Darjeeling Tour",
-    dates: "20 Sept, 15 Oct, 7 Nov, 10 Dec",
+    dates: "20 Sept 2024, 15 Oct 2024, 7 Nov 2024, 10 Dec 2024",
     days: [
       "Mumbai to NJP by Train - Start your journey from Mumbai to NJP by train.",
 
@@ -51,7 +51,7 @@ const tourData = [
     slug: "rajasthan-tour",
     image: rajasthan,
     name: "Rajasthan Tour",
-    dates: "23/09, 15/10, 06/11, 19/11, 04/12, 19/11",
+    dates: "23/09/2024, 15/10/2024, 06/11/2024, 19/11/2024, 04/12/2024, 19/11/2024",
     days: [
       "Pune to Jaipur - Travel from Pune to Jaipur by train (12939 Pune Jaipur Express) departing at 05:30 PM.",
       "Jaipur - Arrive in Jaipur at 02:40 PM. Enjoy the Chokhi Dhani experience after lunch. Overnight stay at the hotel.",
@@ -85,7 +85,7 @@ const tourData = [
     image: kashmir,
     name: "Kashmir & Vaishnao Devi Tour",
     dates:
-      "15 March, 20 March, 25 March, 30 March, 5 April, 10 April, 15 April, 20 April, 25 April, 30 April",
+      "15 March 2024, 20 March 2024, 25 March 2024, 30 March 2024, 5 April 2024, 10 April 2024, 15 April 2024, 20 April 2024, 25 April 2024, 30 April 2024",
     days: [
       "Pune to Jammu - Travel from Pune to Jammu by train (11077 Jhelum Express) departing at 05:20 PM.",
       "Full day train journey.",
@@ -111,7 +111,7 @@ const tourData = [
     slug: "shimla-tour",
     image: shimla,
     name: "Shimla, Kullu, Manali, Dharamshala, Dalhousie & Amritsar Tour",
-    dates: "15 Oct, 30 Oct, 15 Nov, 30 Nov, 15 Dec",
+    dates: "15 Oct 2024, 30 Oct 2024, 15 Nov 2024, 30 Nov 2024, 15 Dec 2024",
     days: [
       "Pune to Delhi - Travel from Pune to Delhi by train (11094 Nanded Jammu Tawi Express) departing at 05:20 PM.",
       "Full day train journey.",
@@ -142,7 +142,7 @@ const tourData = [
     slug: "amritsar-tour",
     image: amritsar,
     name: "Amritsar-Vaishno Devi-Patnitop-Shivkhori Tour",
-    dates: "17 November, 17 December",
+    dates: "17 November 2024, 17 December 2024",
     days: [
       "Departure from Jalandhar Railway Station at 5:20 PM by Jhelum Express (11077).",
       "Train Journey.",
@@ -165,7 +165,7 @@ const tourData = [
     slug: "kashi-ayodhya-tour",
     image: kashiayodhya,
     name: "Kashi Prayag Ayodhya Tour",
-    dates: "26 September, 20 October, 19 November, 16 December",
+    dates: "26 September 2024, 20 October 2024, 19 November 2024, 16 December 2024",
     days: [
       "Pune to Prayag Raj - Departure from Pune Railway Station at 9:05 PM by DNR 12149.",
       "Train Traveling Full Day.",
@@ -186,7 +186,7 @@ const tourData = [
     slug: "kerala-tour",
     image: kerala,
     name: "Kerala, Kanyakumari, Rameshwaram, Madurai Tour",
-    dates: "5 November",
+    dates: "5 November 2024",
     days: [
       "Pune To Cochin: Pune To Cochin By Train (16381 Kanyakumari Express) At 11:50 Pm",
       "Train Traveling Full Day",
@@ -246,7 +246,7 @@ const tourData = [
     slug: "kashi-gaya-tour",
     image: kashigaya,
     name: "Kashi, Prayagraj, Ayodhya, Chitrakoot, Gaya Tour",
-    dates: "19 September, 13 October, 10 November, 5 December",
+    dates: "19 September 2024, 13 October 2024, 10 November 2024, 5 December 2024",
     days: [
       "Pune To Prayagraj: Departure From Pune Railway Station At 9:05 PM By Train (DNR 12149)",
       "Prayagraj: Arrival At Prayagraj Railway Station, Overnight Stay At Prayagraj",
