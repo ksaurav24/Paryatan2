@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+.navLink {
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  transition: all 0.15s ease-in-out;
+}
+.navLink:hover {
+  transition: all 0.15s ease-in-out;
+
+  color: #d5d5d5;
+}
+.sliderImage {
+  background-image: url(../../src/Assets/hero6.webp);
+}
+/* 
+@keyframes slide {
+  0% {
+    background-image: url(../../public/Assets/hero1.webp);
+  }
+  10% {
+    background-image: url(../../public/Assets/hero2.webp);
+  }
+  20% {
+    background-image: url(../../public/Assets/hero3.webp);
+  }
+  30% {
+    background-image: url(../../public/Assets/hero4.webp);
+  }
+  40% {
+    background-image: url(../../public/Assets/hero5.webp);
+  }
+  50% {
+    background-image: url(../../public/Assets/hero6.webp);
+  }
+  60% {
+    background-image: url(../../public/Assets/hero7.webp);
+  }
+  100% {
+    background-image: url(../../public/Assets/hero1.webp);
+  }
+} */
+.shadowStyle {
+  transition: all 0.5s ease-in-out;
+}
+.shadowStyle:hover {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-4px);
+  box-shadow: 2px 2px 30px #8686861b, -2px -2px 30px #9595951a;
+}
+.socialIcons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.socialIcons > a {
+  border-radius: 50%;
+  color: #fff;
+  padding: 6px;
+  transition: all 0.5s ease-in-out;
+  background-color: #fafafa;
+}
+
+.socialIcons > a > svg {
+  height: 25px;
+  width: 25px;
+  transition: all 0.5s ease-in-out;
+}
+.socialIcons > a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #171717;
+}
+.socialIcons > a:hover > svg {
+  transition: all 0.5s ease-in-out;
+  fill: #fff;
+}
+
+.socialIconsMobile {
+  display: flex;
+  align-items: center;
+}
+.socialIconsMobile > a {
+  border-radius: 50%;
+  padding: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.socialIconsMobile > a > svg {
+  height: 25px;
+  width: 25px;
+  fill: #fde047;
+  transition: all 0.5s ease-in-out;
+}
+.socialIconsMobile > a:hover {
+  transition: all 0.5s ease-in-out;
+}
+.socialIconsMobile > a:hover > svg {
+  transition: all 0.5s ease-in-out;
+}
