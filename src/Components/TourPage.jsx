@@ -18,7 +18,7 @@ const TourPage = () => {
         <div>
           <div>
             <img
-              src={`../src/assets/${tourContent.image}`}
+              src={`../assets/${tourContent.image}`}
               alt={tourContent.image}
               className="w-[90%] mx-auto mt-4 h-[600px] object-cover"
             ></img>

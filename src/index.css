@@ -21,7 +21,7 @@ body {
   color: #d5d5d5;
 }
 .sliderImage {
-  background-image: url(../../src/Assets/hero6.webp);
+  background-image: url(../src/assets/hero6.jpeg);
 }
 /* 
 @keyframes slide {
