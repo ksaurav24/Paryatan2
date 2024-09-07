@@ -1,12 +1,12 @@
-import amritsar from "../assets/amritsar.jpg";
-import darjeeling from "../assets/darjeeling.jpg";
-import kashiayodhya from "../assets/kashiayodhya.jpg";
-import kashigaya from "../assets/kashigaya.jpg";
-import kashmir from "../assets/kashmir.jpg";
-import kerala from "../assets/kerala.jpg";
-import nepal from "../assets/nepal.jpg";
-import rajasthan from "../assets/rajasthan.jpg";
-import shimla from "../assets/shimla.jpg";
+import amritsar from "./assets/amritsar.jpg";
+import darjeeling from "./assets/darjeeling.jpg";
+import kashiayodhya from "./assets/kashiayodhya.jpg";
+import kashigaya from "./assets/kashigaya.jpg";
+import kashmir from "./assets/kashmir.jpg";
+import kerala from "./assets/kerala.jpg";
+import nepal from "./assets/nepal.jpg";
+import rajasthan from "./assets/rajasthan.jpg";
+import shimla from "./assets/shimla.jpg";
 
 const tourData = [
   {
