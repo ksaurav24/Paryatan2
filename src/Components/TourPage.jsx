@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { tourData } from "../tourdata.jsx";
+import { tourData } from "../tourdata";
 const TourPage = () => {
   const [tourContent, setTourContent] = useState(null);
   const slug = useParams().slug;
